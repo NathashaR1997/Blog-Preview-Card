@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+html {
+  font-size: 100%;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+*, a {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+  margin: 0px 0px 0px 0px;
+  text-decoration: none;
+}
+
+body {
+  background-color: #F4D04E;
+  margin-top: 10%;
+}
+
+.maincontainer {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.maincontainer {
+  max-width: 370px;
+  height: auto;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 8px 8px 0px #000000;
+  padding: 22px 22px 30px 22px;
+}
+
+.middlesection {
+  margin-top: 30px;
+}
+.middlesection .learning {
+  background-color: #F4D04E;
+  padding: 10px 14px 10px 14px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+.middlesection h1 {
+  font-size: 10px;
+  font-weight: 500;
+  color: #000000;
+  padding-top: 30px;
+}
+.middlesection h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+  padding-top: 20px;
+}
+.middlesection p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #989898;
+  padding-top: 20px;
+  line-height: 24px;
+}
+
+.bottomsection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 20px;
+}
+.bottomsection p {
+  padding-left: 10px;
+  font-weight: 600;
+  color: #000000;
+  font-size: 10px;
+}/*# sourceMappingURL=styles.css.map */
